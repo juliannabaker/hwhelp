@@ -1,0 +1,179 @@
+
+footer {
+  position: absolute;
+  top: 950px;
+  text-align: center;
+  width: 100%;
+  font-size: 0.70em;
+  border-top: solid 3px #FFE4E1;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+body {
+  padding-bottom: 60px;
+  min-height: 100%;
+  background-image: url("../images/tan_background.jpg");
+}
+
+body {background-color: #F5FFFA;}
+
+
+/*.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+*/
+
+.menu {     
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  top: 0;
+  position: fixed;
+  margin-top: 0;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  min-width: 100%;
+}
+
+.menu > li {
+  background: #FFE4E1;
+}
+
+.menu a {
+  /* display: block; */
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 14px;
+  display: block;
+}   
+
+.menu li:hover {
+  background: #C28285;
+}   
+
+/*.menu > li > a {
+  transform: skewX(-25deg);
+}*/
+
+.active {
+  text-shadow: 1px 1px #C28285;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .information {
+  padding-top: 60px;
+}
+
+header {
+  text-align: center;
+  /* padding: 1em; */
+  font-family: Arial;
+  color: black;
+  font-size: 250%;
+  outline-color: black;
+  border-style: solid;
+  border-color: grey;
+  border-width: 3px;
+}
+
+.topdiv {
+  background-color: white;
+  background-size: auto;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #FFE4E1;
+  border-width: 3px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.information {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  text-align: center;
+  z-index: -1;
+}
+
+.about {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.about > a {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.mypic {
+  border: 3px solid #FFE4E1;
+  border-radius: 5px;
+  padding: 15px;
+  width: 200px;
+}
+
+figcaption { 
+  width: 6em;
+  text-align: center;
+  font-size: 0.78em;
+}
+
+.sitemap {
+  padding: 15px;
+  margin: 15px;
+}
+

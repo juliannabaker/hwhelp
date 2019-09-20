@@ -1,0 +1,174 @@
+footer {
+  position: absolute;
+  top: 950px;
+  text-align: center;
+  width: 100%;
+  font-size: 0.70em;
+  border-top: solid 3px #FFE4E1;
+}
+
+.NoBorder {
+  border: none;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+body {
+  padding-bottom: 60px;
+  min-height: 100%;
+  position: relative;
+  background-image: url("../images/tan_background.jpg");
+}
+
+body {background-color: #F5FFFA;}
+
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.menu {width: 25%;}
+.menu {
+  margin: 25px;
+  padding: 25px;
+  list-style: none;
+}
+
+.menu {     
+  margin: 20px auto;
+  width: 100%;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content; 
+  text-align: center;
+}
+
+.menu > li {
+  background: #FFE4E1;
+  float: left;
+  position: relative;
+  transform: skewX(25deg);
+}
+
+.menu a {
+  display: block;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 14px;
+  width: 250px;
+}   
+
+.menu li:hover {
+  background: #C28285;
+}   
+
+.menu > li > a {
+  transform: skewX(-25deg);
+  padding: 1em 2em;
+}
+
+.active {
+  text-shadow: 1px 1px #C28285;
+}
+
+header {
+  text-align: center;
+  padding: 1em;
+  font-family: Arial;
+  color: black;
+  font-size: 250%;
+  outline-color: black;
+  border-style: solid;
+  border-color: grey;
+  border-width: 3px;
+}
+
+.topdiv {
+  background-color: white;
+  background-size: auto;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #FFE4E1;
+  border-width: 3px;
+  text-align: center;
+}
+
+.information {
+  width: 50%;
+  height: auto;
+  background-color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 10px;
+}
+
+.about {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+/*.about:hover {
+  background-color: #C0C0C0;
+}
+this was not wanted anymore.
+*/
+
+.about > a {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.mypic {
+  border: 3px solid #FFE4E1;
+  border-radius: 5px;
+  padding: 15px;
+  width: 200px;
+}
+
+figcaption { 
+  width: 6em;
+  text-align: center;
+  font-size: 0.78em;
+}

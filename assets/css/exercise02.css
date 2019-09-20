@@ -1,0 +1,101 @@
+/*  EX02 css */
+/*  starter code */
+body{
+  background-image: url("../images/side.jpg");  
+  background-repeat: repeat-y;
+  padding: 0;
+}
+
+/* Container */
+
+#rightSide
+{
+   /* border: green 2px solid; */
+   width: 500px;
+   height: 70%;
+   margin-left:9em;
+   float: left;
+}
+header {
+	width:100%;
+	text-align:center;
+	font-size:1.5em;
+	margin-bottom:3em;
+	color:red;
+  font-family: 'Fjalla One', cursive;
+}
+
+.Asterisk {
+  font-size: 6em;
+  text-shadow: 3px 3px yellow;
+  color: pink;
+}
+
+.Flower {
+  font-size: 3em;
+  color: pink;
+}
+
+/* Used to set the appearance of the squares */
+.square{
+  display: inline-block;
+  background-color: #3b5710;
+	height: 200px;
+	width: 200px;
+	border-radius: 10%;
+  /* margin: 2%; */
+  margin: 1% 1% 3% 1%;
+	transition: background-color 1s;    
+}
+
+/* Used for transition when user hovers over one of the 4 sqares */
+.square:hover{
+    background-color: #712e6d;
+    transition: background-color 1s ease;
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    -o-transition: background-color 1s ease;
+    cursor: pointer
+}
+
+footer {
+  position: absolute;
+  top: 950px;
+  text-align: center;
+  width: 100%;
+  font-size: 0.70em;
+  border-top: solid 3px #712e6d;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 500px){
+  #rightSide{
+    max-width: 325px;
+  }
+
+  footer{
+    display: none;
+  }
+}
+@media screen and (max-width: 448px){
+  header{
+    display: none;
+  }
+}
+@media screen and (max-width: 350px){
+  
+  body{
+    background-image: none;
+  }
+
+  #rightSide {
+    margin-left: 10px;
+  }
+
+  footer {
+    display: none;
+  }
+
+}
+
